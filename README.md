@@ -1,10 +1,5 @@
-This is a project designed to pick a random champion in the Bot role filtering by designasted specifications:
-  Specifications:
-    None
-    Win rate
-    Win rate and pick rate
-    Pick rate
-    Maybe more (TBD)
+This is a project that collects win and pick rate from op.gg, applies a normal distribution to both along with a "weight" based on their importance (in my opinion), and creates a power level for each champion. Champions are then put in a top 5 list based on this power level.
+
 
 Currently all data is obtained from op.gg
 
